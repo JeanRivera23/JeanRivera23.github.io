@@ -1,13 +1,14 @@
-/* * * * * * * * * * * * * * * * * * * * *\ 
- UrkuPortfolio v1.0.0 
- Urku is a prtfolio template with a very clean style. 
- (c) 2016 Lionel <lionel@pixeden.com> (http://pixeden.com) 
- https://bitbucket.org/elrumordelaluz/urkuportfolio 
- Licensed under  MIT 
+/* * * * * * * * * * * * * * * * * * * * *\
+ UrkuPortfolio v1.0.0
+ Urku is a prtfolio template with a very clean style.
+ (c) 2016 Lionel <lionel@pixeden.com> (http://pixeden.com)
+ https://bitbucket.org/elrumordelaluz/urkuportfolio
+ Licensed under  MIT
 \* * * * * * * * * * * * * * * * * * * * */
 @charset "UTF-8";
 body {
   margin: 0;
+  background-color: #FDFDFD;
 }
 
 .rk-container {
@@ -62,6 +63,9 @@ body {
 }
 
 .rk-topbar {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -79,6 +83,10 @@ body {
           justify-content: space-between;
   padding-bottom: 3.3rem;
   padding-top: 2.8rem;
+
+  -webkit-box-shadow: 1px 5px 9px -4px rgba(204,200,204,1);
+  -moz-box-shadow: 1px 5px 9px -4px   rgba(204,200,204,1);
+  box-shadow: 1px 5px 9px -4px rgba(204,200,204,1);
 }
 @media (min-width: 64em) {
   .rk-topbar {
