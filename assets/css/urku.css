@@ -11,6 +11,18 @@ body {
   background-color: #FDFDFD;
 }
 
+.prof {
+  font-family: 'Bad Script', cursive;
+  font-size: 12px;
+  text-align: right;
+  padding-left: 9px;
+  text-transform: none;
+}
+
+#email {
+  color: black;
+}
+
 .rk-container {
   margin-right: auto;
   margin-left: auto;
