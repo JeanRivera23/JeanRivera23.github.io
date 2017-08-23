@@ -23,6 +23,11 @@ body {
   color: black;
 }
 
+#portfolio-item-cont {
+  position: relative;
+  top: 90px;
+}
+
 .rk-container {
   margin-right: auto;
   margin-left: auto;
